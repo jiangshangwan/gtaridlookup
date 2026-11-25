@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (c) 2026 江上晚 (jiangshangwan) <liyd9745@gmail.com>
+  SPDX-License-Identifier: GPL-3.0-only
+  grl-strings-9C08 字符串资源
+-->
+<resources>
+    <string name="app_name">GTA5 RID 查询</string>
+    <string name="login_title">登录 Social Club</string>
+    <string name="hint_nickname">输入 Social Club 昵称</string>
+    <string name="btn_query">查询 RID</string>
+    <string name="btn_login">登录 R 星账号</string>
+    <string name="result_placeholder">结果将显示在这里</string>
+    <string name="source_official">来源：官方接口</string>
+    <string name="source_cache">来源：缓存（可能过时）</string>
+    <!-- grl-author-str-3E8A 作者信息（名字可点击） -->
+    <!-- grl-author-trim-9F41 首行只保留“作者：” -->
+    <string name="author_title">作者：</string>
+    <string name="author_weibo">微博：李十六的日记本</string>
+    <string name="author_coolapk">酷安：江上晚</string>
+    <string name="author_github">GitHub：jiangshangwan</string>
+    <string name="url_weibo">https://weibo.com/u/3725737792</string>
+    <string name="url_coolapk">https://www.coolapk.com/u/3019478</string>
+    <string name="url_github">https://github.com/jiangshangwan</string>
+</resources>

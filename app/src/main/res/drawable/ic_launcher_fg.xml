@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (c) 2026 江上晚 (jiangshangwan) <liyd9745@gmail.com>
+  SPDX-License-Identifier: GPL-3.0-only
+  grl-icon-fg-5A12 图标前景矢量
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:fillColor="#FFFFD764"
+        android:pathData="M54,30 m-16,0 a16,16 0,1 1,32 0 a16,16 0,1 1,-32 0" />
+    <path
+        android:fillColor="#FFFFD764"
+        android:pathData="M54,52 l14,26 h-28 z" />
+</vector>

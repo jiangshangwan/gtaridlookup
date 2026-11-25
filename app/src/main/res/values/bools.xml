@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (c) 2026 江上晚 (jiangshangwan) <liyd9745@gmail.com>
+  SPDX-License-Identifier: GPL-3.0-only
+  grl-bools-day-7E31 浅色主题状态栏图标为深色
+-->
+<resources>
+    <bool name="light_status_bar">true</bool>
+</resources>

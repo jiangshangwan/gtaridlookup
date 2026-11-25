@@ -1,0 +1,15 @@
+# Copyright (c) 2026 江上晚 (jiangshangwan) <liyd9745@gmail.com>
+# SPDX-License-Identifier: GPL-3.0-only
+# grl-gitignore-5E29 构建产物与本地配置排除规则
+
+.gradle/
+build/
+app/build/
+local.properties
+*.apk
+*.apk.idsig
+*.jks
+*.keystore
+.idea/
+*.iml
+.DS_Store

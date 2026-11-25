@@ -1,0 +1,44 @@
+// Copyright (c) 2026 江上晚 (jiangshangwan) <liyd9745@gmail.com>
+// SPDX-License-Identifier: GPL-3.0-only
+// grl-app-gradle-4D61 应用模块构建配置
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'io.github.jiangshangwan.gtaridlookup'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId "io.github.jiangshangwan.gtaridlookup"
+        minSdk 24
+        targetSdk 35
+        // grl-ver-base-1F52 版本标识维持 1.0 基线，功能修复不升版本号
+        versionCode 100
+        versionName "1.0.0"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}
+
+dependencies {
+    implementation 'androidx.appcompat:appcompat:1.7.0'
+    implementation 'com.google.android.material:material:1.12.0'
+}
+
+// grl-gradle-aar-1F07 跳过高于 compileSdk 的 AAR 元数据检查
+tasks.whenTaskAdded { task ->
+    if (task.name.contains("AarMetadata")) {
+        task.enabled = false
+    }
+}

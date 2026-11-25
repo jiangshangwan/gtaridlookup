@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (c) 2026 江上晚 (jiangshangwan) <liyd9745@gmail.com>
+  SPDX-License-Identifier: GPL-3.0-only
+  grl-colors-night-9B57 深色主题配色
+-->
+<resources>
+    <color name="ic_launcher_bg">#1B1B1F</color>
+    <color name="bg">#141417</color>
+    <color name="card">#1E1E23</color>
+    <color name="input_bg">#121215</color>
+    <color name="input_border">#3A3A42</color>
+    <color name="card_border">#33333A</color>
+    <color name="accent">#E32B2B</color>
+    <color name="gold">#FFD764</color>
+    <color name="text_main">#ECECF0</color>
+    <color name="text_sub">#9A9AA2</color>
+    <color name="error_text">#FF8A8A</color>
+    <color name="btn_secondary_text">#ECECF0</color>
+    <color name="on_accent">#FFFFFF</color>
+</resources>
