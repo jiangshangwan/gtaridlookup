@@ -33,7 +33,7 @@ APP 查询时**优先走官方接口**：检测到有效登录令牌就用官方
 
 ## 安装
 
-从本仓库 [Releases](https://github.com/jiangshangwan/gtaridlookup/releases) 下载 `GTA5-RID查询-v1.0.apk`，传到手机安装（需允许安装未知来源应用）。同签名旧版可直接覆盖。
+从本仓库 [Releases](https://github.com/jiangshangwan/gtaridlookup/releases) 下载 `GtaRidLookup-v1.0.apk`，传到手机安装（需允许安装未知来源应用）。同签名旧版可直接覆盖。
 
 ## 更新记录
 
